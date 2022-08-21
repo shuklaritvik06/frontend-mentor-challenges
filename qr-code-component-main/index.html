@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            royal: '#09192B',
+          }
+        }
+      }
+    }
+  </script>
+
+  <title>Frontend Mentor | QR code component</title>
+</head>
+<body>
+  <div class="w-screen h-screen bg-blue-300 flex justify-center items-center">
+    <div class="h-[500px] w-[350px] bg-white rounded-2xl shadow-indigo-200">
+      <img src="./images/image-qr-code.png" alt="" class="w-full h-[300px] p-5 rounded-[1.75rem] object-cover">
+      <div>
+        <div class="font-bold text-royal text-2xl px-6 text-center py-3">
+           Improve your front-end skills by building projects
+        </div>
+        <div class="px-5 text-center text-slate-400">
+          Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex justify-center absolute bottom-0 w-full">
+  <p>Challenge by Frontend Mentor. Coded by<span class="text-blue-800">&nbsp;Ritvik Shukla</span></p>
+  </div>
+</body>
+</html>
