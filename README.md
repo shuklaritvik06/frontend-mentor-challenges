@@ -11,3 +11,4 @@ Repo for maintaining frontend mentor challenges i do
 - [ ] Multistep form
 - [ ] News Home
 - [ ] Time track
+- [ ] Blogr
