@@ -10,6 +10,11 @@ const config: Config = {
     extend: {
       boxShadow: {
         blogcard: "10px 10px 0 0 rgba(0, 0, 0)"
+      },
+      colors: {
+        faqtext: "hsl(292, 42%, 14%)",
+        faq: "hsl(275, 100%, 97%)",
+        faqdata: "hsl(292, 16%, 49%)"
       }
     }
   },
