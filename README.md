@@ -1,6 +1,6 @@
 # Fun Stuff
 
-Repo for maintaining frontend mentor challenges i do
+Repo for maintaining fun challenges
 
 ### Have to do
 
