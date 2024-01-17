@@ -1,4 +1,4 @@
-# frontend-mentor-challenges
+# Fun Stuff
 
 Repo for maintaining frontend mentor challenges i do
 
